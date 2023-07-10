@@ -110,3 +110,4 @@
 - https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/
 - https://devtoolstips.org/
 - https://www.codecademy.com/catalog/language/html-css
+- https://dev.to/evergrowingdev/how-to-build-things-people-want-to-use-4g5n
