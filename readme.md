@@ -16,12 +16,16 @@
   
 ## Git
 - https://git-scm.com/doc
+- https://www.atlassian.com/git/tutorials
 - https://www.w3schools.com/git/
 - https://www.simplilearn.com/tutorials/git-tutorial/git-tutorial-for-beginner
 - https://learngitbranching.js.org/
 - https://www.makeuseof.com/git-learn-interactive-resources/
 - https://www.youtube.com/watch?v=i_23KUAEtUM
 - https://dev.to/soumyadeepdey/github-vs-git-understanding-the-differences-k5i
+- https://youtu.be/1ffBJ4sVUb4
+- https://skills.github.com/
+- https://www.udemy.com/course/git-expert-4-hours/
 
 ## Visual Studio Code
 - https://code.visualstudio.com/docs/introvideos/basics
@@ -111,3 +115,4 @@
 - https://devtoolstips.org/
 - https://www.codecademy.com/catalog/language/html-css
 - https://dev.to/evergrowingdev/how-to-build-things-people-want-to-use-4g5n
+- https://dev.to/joanayebola/introduction-to-css-grid-a-comprehensive-guide-35p9
