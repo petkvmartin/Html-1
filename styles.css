@@ -1,0 +1,14 @@
+header {
+    background-color: aqua;
+    font-size: medium;
+}
+.d-block {
+    display: block;
+}
+.w-100 {
+    width: 100%; !important
+}
+#plava {
+    display: flex;
+    flex-direction: row;
+}

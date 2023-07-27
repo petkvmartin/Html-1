@@ -5,12 +5,14 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+
 </head>
 
 <body style="margin: 0; padding: 0;">
 
     <!-- Header -->
-    <header style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
+    <header>
+        <link rel="stylesheet" href="styles.css">
         <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
             <a href="#vasara">Vasara</a>
@@ -22,34 +24,95 @@
         <img src="resources/Pavasaris.jpg" alt="Pavasaris">
         <div>
             <h1>Pavasaris</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+                search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
         </div>
         <div id="vasara">
             <img src="resources/Vasara.jpg" alt="Vasara">
-            <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+            <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</p><br>
         </div>
 
         <div id="plava" style="display: flex; flex-direction: row;">
-            <div style="display: block;">
-                <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
+            <div class="d-block;">
+                <img class="d-block w-100" src="resources/Plava.jpg" alt="Plava">
             </div>
             <div style="display: block;">
                 <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                    anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
+                    tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                    It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+                    to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
+                    from repetition, injected humour, or non-characteristic words etc.</p>
             </div>
         </div>
 
         <!-- Exercises -->
         <div id="exercises">
             <h1>Uzdevumi</h1><br>
-            <p>Nomaini visiem tekstiem fontu.</p>
-            <p>Sakārto bilžu un tekstu novietojumu.</p>
-            <p>Pieliec tekstu zem virsrakstiem.</p>
-            <p>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</p>
-            <p>Pieliec stilu header daļai, lai tā atgādinātu header.</p>
-            <p>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</p>
-            <p>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</p>
-            <p>Pievieno karti.</p>
-            <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
+            <ul>
+                <li>
+                    <p>Nomaini visiem tekstiem fontu.</p>
+                </li>
+                <li>
+                    <p>Sakārto bilžu un tekstu novietojumu.</p>
+                </li>
+                <li>
+                    <p>+Pieliec tekstu zem virsrakstiem.</p>
+                </li>
+                <li>
+                    <p>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</p>
+                </li>
+                <li>
+                    <p>Pieliec stilu header daļai, lai tā atgādinātu header.</p>
+                </li>
+                <li>
+                    <p>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</p>
+                </li>
+                <li>
+                    <p>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</p>
+                </li>
+                <li>
+                    <p>Pievieno karti.</p>
+                </li>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17408.735498795475!2d24.127400457812506!3d56.94722610430165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfd1742cc3a1%3A0x25408000f2434681!2sBr%C4%ABv%C4%ABbas%20piemineklis!5e0!3m2!1slv!2slv!4v1690478579464!5m2!1slv!2slv"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <li>
+                    <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
+            </ul>
+            </ul>
         </div>
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tr>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Lidl</td>
+                <td>Riga</td>
+                <td>Pļavnieki</td>
+            </tr>
+            <tr>
+                <td>Rimi</td>
+                <td>Tukums</td>
+                <td>Lielā iela</td>
+            </tr>
+        </table>
 
         <!-- Footer -->
         <footer>
